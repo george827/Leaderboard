@@ -35,10 +35,10 @@ main {
 }
 
 .list-section li {
-    list-style: none;
-    padding-top: 5px;
-    margin: 5px;
-    font-size: 20px;
+  list-style: none;
+  padding-top: 5px;
+  margin: 5px;
+  font-size: 20px;
 }
 
 .list-section li:nth-child(even) {
