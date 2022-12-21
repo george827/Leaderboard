@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 20px;
+  font-weight: 600;
+}
+
+main {
+  display: flex;
+  gap: 20px;
+}
+
+.list-section {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.score-recent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-refresh {
+  height: 20px;
+  width: fit-content;
+  border: 1px solid black;
+  box-shadow: 2px 3px black;
+  cursor: pointer;
+}
+
+.list-section li {
+    list-style: none;
+    padding-top: 5px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.list-section li:nth-child(even) {
+  background-color: rgb(210, 207, 207);
+}
+
+.list ul {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  padding-left: 10px;
+}
+
+.add-section {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-end;
+}
+
+.btn-submit {
+  width: fit-content;
+}
