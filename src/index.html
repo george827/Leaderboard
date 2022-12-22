@@ -8,31 +8,29 @@
 <body>
     <h1>Leaderboard</h1>
     <main>
-        <div class="list-section">
-            <div class="score-recent">
-                <h2>Recent scores</h2>
-                <button type="button" class="btn-refresh">Refresh</button>
+        <article class="first-sec">
+            <div class="list-section">
+                <div class="score-recent">
+                    <h2>Recent scores</h2>
+                    <button type="button" class="btn-refresh">Refresh</button>
+                </div>
+                <div id="items" class="list">
+                    <ul class="score-list">
+                       <!-- dynamic list here -->
+                    </ul>
+                </div>
             </div>
-            <div class="list">
-                <ul class="score-list">
-                    <!-- <li>Name: 100</li>
-                    <li>Name: 20</li>
-                    <li>Name: 50</li>
-                    <li>Name: 78</li>
-                    <li>Name: 125</li>
-                    <li>Name: 77</li>
-                    <li>Name: 42</li>
-                </ul> -->
+        </article>
+        <article class="second-sec">
+            <div class="add-section">
+                <h2>Add your score</h2>
+                <form class="form-section">
+                    <input type="text" id="name" placeholder="Your name" />
+                    <input type="number" id="score" placeholder="Your score" />
+                    <button type="submit" class="submit" class="btn-submit">Submit</button>
+                </form>
             </div>
-        </div>
-        <div class="add-section">
-            <h2>Add your score</h2>
-            <form class="form-section">
-                <input type="text" id="name" placeholder="Your name" />
-                <input type="number" id="score" placeholder="Your score" />
-                <button type="submit" class="submit" class="btn-submit">Submit</button>
-            </form>
-        </div>
+        </article>
     </main>
 </body>
 </html>
