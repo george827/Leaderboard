@@ -31,4 +31,5 @@ addNewScore.addEventListener('click', async (e) => {
       'Content-Type': 'application/json;charset=UTF-8',
     },
   });
+  document.forms[0].reset();
 });

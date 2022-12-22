@@ -1,20 +1,26 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: aliceblue;
+  color: black;
 }
 
 h1 {
-  margin: 20px;
+  margin-top: 5%;
+  margin-bottom: 4%;
   font-weight: 600;
+  text-align: center;
 }
 
 main {
   display: flex;
   gap: 20px;
+  justify-content: center;
+  width: 80%;
 }
 
 .list-section {
-  width: 40%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   margin: 20px;
@@ -36,20 +42,29 @@ main {
 
 .list-section li {
   list-style: none;
-  padding-top: 5px;
+  padding: 10px;
   margin: 5px;
   font-size: 20px;
+  border-radius: 8px;
+  height: 20px;
 }
 
 .list-section li:nth-child(even) {
   background-color: rgb(210, 207, 207);
 }
 
+.list-section li:nth-child(odd) {
+  background-color: bisque;
+}
+
 .list ul {
   display: flex;
   flex-direction: column;
   border: 2px solid black;
+  border-radius: 5px;
   padding-left: 10px;
+  height: 300px;
+  overflow-y: scroll;
 }
 
 .add-section {
@@ -70,4 +85,28 @@ main {
 
 .btn-submit {
   width: fit-content;
+}
+
+.first-sec {
+  border: black solid 2px;
+  border-radius: 20px;
+  width: 45%;
+}
+
+.second-sec {
+  width: fit-content;
+  padding: 20px;
+  border: black solid 2px;
+  border-radius: 20px;
+  height: fit-content;
+  margin-left: 30px;
+}
+
+.form-section input {
+  height: 20px;
+  color: black;
+  font-size: 16px;
+  width: 90%;
+  border-radius: 5px;
+  padding: 10px;
 }
